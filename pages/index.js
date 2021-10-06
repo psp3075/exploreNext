@@ -8,15 +8,17 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div>
-      <h1>Homepage</h1>
-      <p>
+      <h1 className={styles.title}>Homepage</h1>
+      <p className={styles.text}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
         perferendis dolorem ipsam, sequi enim minus? Dicta debitis rem
-        asperiores iusto possimus nostrum facere rerum necessitatibus.
-        Asperiores quis placeat nobis consequatur.
       </p>
-      <Link href="/blog">
-        <a>See my blogs</a>
+      <p className={styles.text}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+        perferendis dolorem ipsam, sequi enim minus? Dicta debitis rem
+      </p>
+      <Link href="/blogs">
+        <a className={styles.btn}>See my blogs</a>
       </Link>
     </div>
   );
