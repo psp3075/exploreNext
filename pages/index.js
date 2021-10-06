@@ -8,7 +8,6 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <h1>Homepage</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
@@ -19,7 +18,6 @@ export default function Home() {
       <Link href="/blog">
         <a>See my blogs</a>
       </Link>
-      <Footer />
     </div>
   );
 }
